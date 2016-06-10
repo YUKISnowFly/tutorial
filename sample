@@ -14,3 +14,17 @@ $ git status //ディレクトリのワークツリーとインデックスの�
 $ git add <ファイル名> //ファイルをインデックスに追加
 $ git commit -m "<コメント>"
 $ git log // 変更履歴を確認できる
+
+・プッシュ
+$ git push <url> <refspec> // 変更のプッシュは(git push)のみでよい
+
+・プル
+$ git pull <url> <refspec>
+
+・クローン
+git clone <url> <directory> // ディレクトリ名でリポジトリが複製される
+
+・tips
+$ git remote add <name> <url> // urlに名前を付けて管理できる
+ex)
+git remote add origin http://~
