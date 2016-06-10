@@ -19,7 +19,7 @@ $ git log // 変更履歴を確認できる
 $ git push <url> <refspec> // 変更のプッシュは(git push)のみでよい
 
 ・プル
-$ git pull <url> <refspec>
+$ git pull <url> <refspec> // 変更のプルは(git pull)のみでよい
 
 ・クローン
 git clone <url> <directory> // ディレクトリ名でリポジトリが複製される
