@@ -1,1 +1,16 @@
-hogehoge
+・初期設定
+$ git config --global user.name <ユーザー名>
+$ git config --global user.name <メールアドレス>
+
+・リポジトリの作成
+$ git init //ディレクトリをGitの管理下にするときディレクトリ上で使用
+ex)
+$ mkdir tutorial
+$ cd tutorial
+$ git init
+
+・コミット
+$ git status //ディレクトリのワークツリーとインデックスの状態を確認
+$ git add <ファイル名> //ファイルをインデックスに追加
+$ git commit -m "<コメント>"
+$ git log // 変更履歴を確認できる
